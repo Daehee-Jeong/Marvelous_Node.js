@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Marvelous ::: 마블 시네마틱 유니버스 팬페이지</title>
+	<link rel="stylesheet" href="/css/welcome.css">
+	<% include ../partials/head %>
+	<script src="/jq/bjqs.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="/css/bjqs.css" />
+	<script type=text/javascript>
+		$(document).ready(function() {
+			$('#content1').bjqs({
+			'height' : 400,
+			'width' : 1000,
+			'responsive' : true,
+			'animtype' : 'slide',
+			'animduration' : 450,
+			'animspeed' : 2500,
+			'automatic' : true,
+			'nexttext' : '＞',
+			'prevtext' : '＜',
+			'showmarkers' : false,
+			'showcontrols' : true,
+			'usecaptions' : true
+			});
+		});
+	</script>	
+</head>
+<BODY>
+<div id="wrap">
+	<% include ../partials/nav %>
+    <div id = "content">
+		<br>
+		<br>
+		<div id ="content1" class="panel panel-default">
+			<ul class="bjqs">
+				<li><img id="banner_img" src="/res/banner_img_01_text.jpg" title="캡틴 아메리카 : 시빌워"></li>
+				<li><img id="banner_img" src="/res/banner_img_02.jpg" title="닥터 스트레인지"></li>
+				<li><img id="banner_img" src="/res/banner_img_03.jpg" title="어벤져스2 : 에이지 오브 울트론"></li>
+				<li><img id="banner_img" src="/res/banner_img_04.jpg" title="아이언맨3"></li>
+			</ul>
+		</div>
+		
+		<br>
+		
+			
+		<div id = "content2">
+			<div id="trailer" width="60%" height="600">
+				<table bgcolor="#B80000" style="border: solid #b80000 2px; border-spacing: 0px;" width="600">
+						<tr bgcolor="#b80000" class="tr_h" height="10px">
+							<td><font face="맑은 고딕" size="4" color="#ffffff" ><b>트레일러</b> (닥터 스트레인지, 현재 상영중)</font></td>
+						</tr>
+						<tr>
+							<td bgcolor="#000000">
+							<video  width="594" height="330" controls poster="/res/video_cover.jpg">
+								<source src="/res/Doctor_Strange(Teaser).mp4" type="video/mp4"></source>
+							</video>
+							</td>
+						</tr>
+				</table>
+			</div>
+			<div id ="latest" width="40%">
+				<div id ="new">
+					<table bgcolor="#B80000" style="border: solid #b80000 2px; border-spacing: 0px;">
+						<tr bgcolor="#b80000" class="tr_h" height="40px">
+							<td><font face="맑은 고딕" size="4" color="#ffffff" ><b>최신 소식</b></font></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="http://movie.naver.com/movie/mzine/read.nhn?section=main&office_id=108&article_id=0002569704" target="new" class="news_item">'닥터 스트레인지', 아이언맨 없는 마블 최고 흥행작?..</a></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="http://movie.naver.com/movie/mzine/read.nhn?section=main&office_id=109&article_id=0003430460" target="new" class="news_item">'스파이더맨' 톰 홀랜드, 마블 4편 더? 새로운 떡밥 시작</a></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="http://movie.naver.com/movie/mzine/read.nhn?section=main&office_id=108&article_id=0002566559" target="new" class="news_item">마블의 강력 떡밥 '인피니티 스톤'의 행방 총정리</a></td>
+						</tr>
+					</table>
+				</div>
+				<div id ="community">
+					<table bgcolor="#B80000" style="border: solid #b80000 2px; border-spacing: 0px; margin-top: 20px;">
+						<tr bgcolor="b80000" class="tr_h" height="40px">
+							<td><font face="맑은 고딕" size="4" color="#ffffff"><b>커뮤니티</b></font></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="board.php">‘가디언즈 오브 갤럭시2’ 빌런은 ‘아이샤’</a></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="board.php">‘토르:라그나로크’, 플래닛 헐크 이야기 다룬다</a></td>
+						</tr>
+						<tr bgcolor="#ffffff">
+							<td><a href="board.php">마블영화를 싫어하는 할리우드 스타 6</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id = "content3">
+			<div id = "gall">
+				<table  width="600" style="border: solid #b80000 2px; border-spacing: 0px;">
+						<tr bgcolor="#B80000" class="tr_h" height="10px">
+							<td><font face="맑은 고딕" size="4" color="#ffffff" ><b>갤러리</b></font></td>
+						</tr>
+						<tr>
+							<td style="height: 445px; background: rgba(0, 0,0, 0.9);" align="center">
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_01.jpg"></a>
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_02.jpg"></a><br><br>
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_03.jpg"></a>
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_04.jpg"></a><br><br>
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_05.jpg"></a>
+								<a href="/gallery"><img class="img_size" src="/res/stills/still_06.jpg"></a>
+							</td>
+						</tr>
+				</table>
+			</div>
+			<div id = "twitt" class="panel panel-default">
+				<a style="width: 400px;" class="twitter-timeline"  href="https://twitter.com/hashtag/marvel" data-widget-id="741648866290733057">#marvel Tweets</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div><!--content3-->
+	</div><!--content-->
+</div>
+</body>
+</html>
+

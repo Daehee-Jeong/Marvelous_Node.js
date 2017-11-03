@@ -1,0 +1,9 @@
+body {
+}
+
+.panel-default {
+	margin-top:70px;
+	height: 560px;
+	width: 400px;
+	padding: 30px 100px;
+}

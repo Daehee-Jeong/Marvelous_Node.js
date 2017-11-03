@@ -1,0 +1,110 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*상단CSS*/
+
+#wrap{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+	margin-top:50px;
+}
+#menu{
+	background-image: url('res/background_banner.png');
+	background-size: contain;
+    width:100%;
+    height:100px;
+    position:absolute;  /* 스크롤 메뉴 고정 핸들을 위함 */
+    left:0;
+	
+	display: table;
+	vertical-align: middle;
+}
+#content{
+	background-image: url('/res/background.jpg');
+	height: 760px;
+}
+
+#content1 {
+	margin: 0 auto;
+	width: 80%;
+	height: 680px;
+	background-color: #ffffff;
+	padding: 25px 30px;
+}
+
+#menu_list {
+	display: table;
+	width: 50%;
+	float: right;
+	margin-right: 150px;
+	margin-top: 32px;
+}
+
+#menu_list li {
+	display: table-cell;
+}
+
+#menu_list a :hover {
+	color: #aaa;
+	font-weight: bold;
+}
+
+#logo_link {
+	width: 250px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#logo_img {
+	background-size: contain;
+	width: 300px;
+	height: 63px;
+	float: left;
+	margin-left: 150px;
+	padding-bottom: 5px;
+}
+
+.login_blank {
+	width: 300px;
+	height: 40px;
+	font-size: 15pt;
+}
+
+.input_btn {
+	background: #b80000;
+	border: 0px;
+	font: 맑은 고딕;
+	font-size: 15pt;
+	color: #ffffff;
+	width: 300px;
+	height: 50px; 
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.input_btn:hover {
+	background: #810000;
+	border: 0px;
+	font: 맑은 고딕;
+	font-size: 15pt;
+	color: #ffffff;
+	width: 300px;
+	height: 50px; 
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.join_link {
+	color: #777777;
+	text-decoration: underline;
+}

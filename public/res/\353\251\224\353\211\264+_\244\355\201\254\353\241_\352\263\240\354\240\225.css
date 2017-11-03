@@ -1,0 +1,75 @@
+/*css 초기화 코드 */
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif; font-size:12px; color:#333}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+ul,ol{list-style:none}
+fieldset,img{border:0; vertical-align:top;}
+address{font-style:normal}
+li,dd{text-align:justify; line-height:1.5em}
+.hidden{position:absolute; top:0; left:-1000%; width:1px; height:1px; overflow:hidden}
+table{border-collapse:collapse}
+
+
+/*상단CSS*/
+#wrap{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+}
+#menu{
+	background-image: url('res/background_banner.png');
+	background-size: contain;
+    width:100%;
+    height:100px;
+    position:absolute;  /* 스크롤 메뉴 고정 핸들을 위함 */
+    left:0;
+	
+	display: table;
+	vertical-align: middle;
+}
+#content{
+    margin-top:88px;   /*메뉴영역 높이만큼 마진값*/
+    background:#ccc;
+}
+
+#menu_list {
+	display: table;
+	width: 50%;
+	float: right;
+	margin-right: 150px;
+}
+
+#menu_list li {
+	display: table-cell;
+}
+
+#logo_link {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#new li {
+	text-overflow: ellipsis;
+}
+
+#content2 video{
+	display: inline-block;
+}
+
+#content2 table {
+	display: inline-block;
+}
+
+#logo_img {
+	background-size: contain;
+	width: 300px;
+	height: 63px;
+	float: left;
+	margin-left: 150px;
+	padding-bottom: 5px;
+}
+
+#banner_img {
+	width: 70%;
+}
